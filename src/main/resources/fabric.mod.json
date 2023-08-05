@@ -2,27 +2,25 @@
   "schemaVersion": 1,
   "id": "fiveonefouroneeight",
   "version": "${version}",
-
   "name": "FiveOneFourOneEight",
   "description": "Allow changing option values outside the vanilla limit using options.txt",
   "authors": [
     "apple502j"
   ],
   "contact": {
-    "sources": "https://github.com/apple502j/FiveOneFourOneEight"
+    "homepage": "https://modrinth.com/mod/fiveonefouroneeight",
+    "sources": "https://github.com/apple502j/FiveOneFourOneEight",
+    "issues": "https://github.com/apple502j/FiveOneFourOneEight/issues"
   },
-
   "license": "BSD-3-Clause",
   "icon": "assets/fiveonefouroneeight/icon.png",
-
   "environment": "client",
   "mixins": [
     "fiveonefouroneeight.mixins.json"
   ],
   "accessWidener" : "fiveonefouroneeight.accesswidener",
   "depends": {
-    "fabricloader": ">=0.14.0",
-    "minecraft": "1.19.x",
-    "java": ">=17"
+    "fabricloader": ">=${fabricloaderversion}",
+    "minecraft": "~${mcversion}"
   }
 }
